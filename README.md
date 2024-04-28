@@ -36,15 +36,17 @@ Here are some ideas to get you started:
 ![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
 ![React Query](https://img.shields.io/badge/-React_Query-FF4154?style=for-the-badge&logo=react%20query&logoColor=white)
 
-
-<br/>
-
 <p align="center">
   <a href="https://github.com/alsiam">
     <img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=hideoxt&theme=2077" alt="somethin about ontribution"/>
   </a>
 </p>
 
+<p align="center">
+  <a href="https://github.com/alsiam">
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=hideoxt&bg_color=141321&color=ffffff&line=00ffc8&point=00ffc8&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph" alt="somethin about ontribution"/>
+  </a>
+</p>
 
 <p align="center">
   <a href="https://github.com/alsia](https://git.io/streak-stats">
