@@ -38,18 +38,18 @@ Here are some ideas to get you started:
 
 <p align="center">
   <a href="https://github.com/hideoxt">
-    <img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=hideoxt&theme=2077" alt="somethin about ontribution"/>
+    <img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=hideoxt&theme=2077" alt="somethin about contribution"/>
   </a>
 </p>
 
 <p align="center">
   <a href="https://github.com/hideoxt">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=hideoxt&bg_color=141321&color=ffffff&line=00ffc8&point=00ffc8&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph" alt="somethin about ontribution"/>
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=hideoxt&bg_color=141321&color=ffffff&line=00ffc8&point=00ffc8&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph" alt="somethin about contribution"/>
   </a>
 </p>
 
 <p align="center">
   <a href="https://github.com/hideoxt">
-    <img src="https://streak-stats.demolab.com?user=hideoxt&theme=dark&date_format=M%20j%5B%2C%20Y%5D&fire=C897FF&border=EB5454&ring=C897FF&background=45%2C270303%2C5F0101&currStreakNum=FFFFFF&dates=FFFFFF&currStreakLabel=EBEBEB" alt="GitHub Streak" alt="somethin about ontribution"/>
+    <img src="https://streak-stats.demolab.com?user=hideoxt&theme=dark&date_format=M%20j%5B%2C%20Y%5D&fire=C897FF&border=EB5454&ring=C897FF&background=45%2C270303%2C5F0101&currStreakNum=FFFFFF&dates=FFFFFF&currStreakLabel=EBEBEB" alt="GitHub Streak" alt="somethin about contribution"/>
   </a>
 </p>
