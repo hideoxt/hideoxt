@@ -40,7 +40,6 @@ Here are some ideas to get you started:
 <br/>
 
 <a> 
-    <a href="https://github.com/hideoxt"><img alt="somethin random" src="https://denvercoder1-github-readme-stats.vercel.app/api?username=alsiam&show_icons=true&count_private=true&theme=react&border_color=7F3FBF&bg_color=0D1117&title_color=F85D7F&icon_color=F8D866" height="192px" width="49.5%"/></a>
   <a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=hideoxt&theme=dark&date_format=M%20j%5B%2C%20Y%5D&fire=C897FF&border=EB5454&ring=C897FF&background=45%2C270303%2C5F0101&currStreakNum=FFFFFF&dates=FFFFFF&currStreakLabel=EBEBEB" alt="GitHub Streak" /></a>
   <br/>
 </a>
