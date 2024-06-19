@@ -44,7 +44,13 @@ Here are some ideas to get you started:
 
 <p align="center">
   <a href="https://github.com/hideoxt">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=hideoxt&bg_color=141321&color=ffffff&line=00ffc8&point=00ffc8&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph" alt="somethin about contribution"/>
+    <img src="http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=vn7n24fzkq&theme=default" alt="somethin about contribution"/>
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/hideoxt">
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=hideoxt&bg_color=141321&color=ffffff&line=00ffc8&point=00ffc8&area=true&hide_border=true" alt="somethin about contribution"/>
   </a>
 </p>
 
