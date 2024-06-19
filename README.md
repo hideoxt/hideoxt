@@ -44,7 +44,7 @@ Here are some ideas to get you started:
 
 <p align="center">
   <a href="https://github.com/hideoxt">
-    <img src="http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=hideoxt&theme=default" alt="somethin about contribution"/>
+    <img src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=hideoxt&theme=default" alt="somethin about contribution"/>
   </a>
 </p>
 
