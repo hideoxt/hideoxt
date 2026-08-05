@@ -162,7 +162,6 @@ working_style:
   </picture>
 </details>
 
-
 ---
 
 <p align="center">

@@ -1,58 +1,44 @@
-name: Update Profile Visuals
+name: Generate Profile Arcade
 
 on:
+  schedule:
+    - cron: "17 0 * * *"
+  workflow_dispatch:
   push:
     branches:
       - main
     paths:
       - ".github/workflows/profile-visuals.yml"
-  schedule:
-    - cron: "17 0 * * *"
-  workflow_dispatch:
 
 permissions:
   contents: write
 
 jobs:
   generate:
-    name: Generate Profile SVGs
+    name: Generate Arcade Visuals
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 20
 
     steps:
-      - name: Check out repository
-        uses: actions/checkout@v4
-
-      - name: Create assets directory
-        run: mkdir -p assets
-
-      - name: Generate GitHub statistics
-        uses: stats-organization/github-readme-stats-action@v2
+      - name: Generate Pac-Man and Breakout
+        uses: abozanona/pacman-contribution-graph@main
         with:
-          card: stats
-          options: "username=hideoxt&show_icons=true&hide_border=true&hide_rank=true&include_all_commits=true&bg_color=0D1117&title_color=FFA0F0&text_color=C9D1D9&icon_color=FD4456"
-          path: assets/github-stats.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
-          fail_on_error: true
+          github_user_name: ${{ github.repository_owner }}
+          games: "pacman,breakout"
+          hide_month_labels: "false"
 
       - name: Generate contribution snake
         uses: Platane/snk/svg-only@v3
         with:
-          github_user_name: hideoxt
+          github_user_name: ${{ github.repository_owner }}
           outputs: |
-            assets/github-snake.svg?palette=github-dark&color_snake=#FD4456&color_dots=#0D1117,#875D93,#A977B1,#FFA0F0,#FD4456
+            dist/github-snake.svg?palette=github-light&color_snake=#FD4456&color_dots=#EBEDF0,#875D93,#A977B1,#FFA0F0,#FD4456
+            dist/github-snake-dark.svg?palette=github-dark&color_snake=#FD4456&color_dots=#161B22,#875D93,#A977B1,#FFA0F0,#FD4456
+
+      - name: Publish arcade SVGs to output branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: dist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Commit generated visuals
-        shell: bash
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/github-stats.svg assets/github-snake.svg
-          if git diff --cached --quiet; then
-            echo "No profile visual changes to commit."
-            exit 0
-          fi
-          git commit -m "chore: update profile visuals"
-          git push
