@@ -106,14 +106,6 @@ working_style:
 <p align="center">
   <img
     width="100%"
-    src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=hideoxt&theme=github_dark"
-    alt="GitHub profile summary"
-  />
-</p>
-
-<p align="center">
-  <img
-    width="100%"
     src="https://github-readme-activity-graph.vercel.app/graph?username=hideoxt&bg_color=0d1117&color=c9d1d9&line=fd4456&point=ffa0f0&area=true&hide_border=true"
     alt="GitHub contribution activity graph"
   />
@@ -121,14 +113,17 @@ working_style:
 
 <p align="center">
   <img
-    width="49%"
-    src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=hideoxt&theme=github_dark&title_color=FFA0F0&text_color=C9D1D9&bg_color=0D1117&border_color=30363D&icon_color=FD4456&animation=rise"
+    width="70%"
+    src="./assets/github-stats.svg"
     alt="GitHub statistics"
   />
+</p>
+
+<p align="center">
   <img
-    width="49%"
-    src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=hideoxt&theme=github_dark&utcOffset=3&title_color=FFA0F0&text_color=C9D1D9&bg_color=0D1117&border_color=30363D&icon_color=FD4456&chart_color=875D93&animation=rise"
-    alt="Commit activity by time"
+    width="100%"
+    src="./assets/github-snake.svg"
+    alt="Contribution snake animation"
   />
 </p>
 
