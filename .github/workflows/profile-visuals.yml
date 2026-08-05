@@ -1,11 +1,14 @@
 name: Update Profile Visuals
 
 on:
-schedule:
-# Runs every day at 00:17 UTC / 03:17 Kuwait time
-- cron: "17 0 * * *"
+push:
+branches:
+- main
+paths:
+- ".github/workflows/profile-visuals.yml"
 
-# Allows you to run the workflow manually from the Actions tab
+schedule:
+- cron: "17 0 * * *"
 
 workflow_dispatch:
 
@@ -18,7 +21,6 @@ name: Generate Profile SVGs
 runs-on: ubuntu-latest
 timeout-minutes: 10
 
-```
 steps:
   - name: Check out repository
     uses: actions/checkout@v4
@@ -27,17 +29,18 @@ steps:
     run: mkdir -p assets
 
   - name: Generate GitHub statistics
-    uses: readme-tools/github-readme-stats-action@v1
+    uses: stats-organization/github-readme-stats-action@v2
     with:
       card: stats
-      options: "username=${{ github.repository_owner }}&show_icons=true&hide_border=true&hide_rank=true&include_all_commits=true&show=reviews,prs_merged&bg_color=0D1117&title_color=FFA0F0&text_color=C9D1D9&icon_color=FD4456"
+      options: "username=hideoxt&show_icons=true&hide_border=true&hide_rank=true&include_all_commits=true&show=reviews,prs_merged&bg_color=0D1117&title_color=FFA0F0&text_color=C9D1D9&icon_color=FD4456"
       path: assets/github-stats.svg
       token: ${{ secrets.GITHUB_TOKEN }}
+      fail_on_error: true
 
   - name: Generate contribution snake
     uses: Platane/snk/svg-only@v3
     with:
-      github_user_name: ${{ github.repository_owner }}
+      github_user_name: hideoxt
       outputs: |
         assets/github-snake.svg?palette=github-dark&color_snake=#FD4456&color_dots=#0D1117,#875D93,#A977B1,#FFA0F0,#FD4456
 
