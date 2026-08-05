@@ -49,4 +49,3 @@ steps:
       git diff --cached --quiet && exit 0
       git commit -m "chore: update profile visuals"
       git push
-```
