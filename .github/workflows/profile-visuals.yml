@@ -1,51 +1,52 @@
 name: Update Profile Visuals
 
 on:
-  schedule:
-    - cron: "17 0 * * *"
+schedule:
+# Runs every day at 00:17 UTC / 03:17 Kuwait time
+- cron: "17 0 * * *"
 
-  workflow_dispatch:
+# Allows you to run the workflow manually from the Actions tab
+
+workflow_dispatch:
 
 permissions:
-  contents: write
+contents: write
 
 jobs:
-  generate:
-    runs-on: ubuntu-latest
+generate:
+name: Generate Profile SVGs
+runs-on: ubuntu-latest
+timeout-minutes: 10
 
-    steps:
-      - name: Check out repository
-        uses: actions/checkout@v4
+```
+steps:
+  - name: Check out repository
+    uses: actions/checkout@v4
 
-      - name: Generate GitHub statistics
-        uses: readme-tools/github-readme-stats-action@v1
-        with:
-          card: stats
-          options: >-
-            username=${{ github.repository_owner }}
-            &show_icons=true
-            &hide_border=true
-            &hide_rank=true
-            &include_all_commits=true
-            &show=reviews,prs_merged
-            &bg_color=0D1117
-            &title_color=FFA0F0
-            &text_color=C9D1D9
-            &icon_color=FD4456
-          path: assets/github-stats.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+  - name: Create assets directory
+    run: mkdir -p assets
 
-      - name: Generate contribution snake
-        uses: Platane/snk/svg-only@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            assets/github-snake.svg?palette=github-dark&color_snake=#FD4456&color_dots=#0D1117,#875D93,#A977B1,#FFA0F0,#FD4456
+  - name: Generate GitHub statistics
+    uses: readme-tools/github-readme-stats-action@v1
+    with:
+      card: stats
+      options: "username=${{ github.repository_owner }}&show_icons=true&hide_border=true&hide_rank=true&include_all_commits=true&show=reviews,prs_merged&bg_color=0D1117&title_color=FFA0F0&text_color=C9D1D9&icon_color=FD4456"
+      path: assets/github-stats.svg
+      token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Commit generated visuals
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/*.svg
-          git commit -m "chore: update profile visuals" || exit 0
-          git push
+  - name: Generate contribution snake
+    uses: Platane/snk/svg-only@v3
+    with:
+      github_user_name: ${{ github.repository_owner }}
+      outputs: |
+        assets/github-snake.svg?palette=github-dark&color_snake=#FD4456&color_dots=#0D1117,#875D93,#A977B1,#FFA0F0,#FD4456
+
+  - name: Commit generated visuals
+    run: |
+      git config user.name "github-actions[bot]"
+      git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+      git add assets/github-stats.svg assets/github-snake.svg
+      git diff --cached --quiet && exit 0
+      git commit -m "chore: update profile visuals"
+      git push
+```
