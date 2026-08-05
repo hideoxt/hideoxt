@@ -121,15 +121,21 @@ working_style:
 
 <p align="center">
   <img
-    src="https://streak-stats.demolab.com?user=hideoxt&theme=github-dark-blue&hide_border=true&ring=FD4456&fire=FFA0F0&currStreakLabel=FFA0F0"
-    alt="GitHub contribution streak"
+    width="49%"
+    src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=hideoxt&theme=github_dark&title_color=FFA0F0&text_color=C9D1D9&bg_color=0D1117&border_color=30363D&icon_color=FD4456&animation=rise"
+    alt="GitHub statistics"
+  />
+  <img
+    width="49%"
+    src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=hideoxt&theme=github_dark&utcOffset=3&title_color=FFA0F0&text_color=C9D1D9&bg_color=0D1117&border_color=30363D&icon_color=FD4456&chart_color=875D93&animation=rise"
+    alt="Commit activity by time"
   />
 </p>
 
 ---
 
 <p align="center">
-  <strong>Building systems that survive beyond the demo.</strong>
+  <strong>I like complicated ideas and bad sleep schedules.</strong>
 </p>
 
 <div align="center">
