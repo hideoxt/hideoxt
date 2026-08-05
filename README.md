@@ -1,68 +1,141 @@
-<!--
-**hideoxt/hideoxt** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
-
-
-## My choice of spices
-
-
-![VSCode](https://img.shields.io/badge/Visual_Studio-0078d7?style=for-the-badge&logo=visual%20studio&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![SASS Badge](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)
-![Tailwind](https://img.shields.io/badge/Tailwind_CSS-092749?style=for-the-badge&logo=tailwindcss&logoColor=06B6D4&labelColor=000000)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
-![Strapi](https://img.shields.io/badge/strapi-2E7EEA?style=for-the-badge&logo=strapi&logoColor=white)
-![Markdown](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white)
-![Javascript](https://img.shields.io/badge/Javascript-F0DB4F?style=for-the-badge&labelColor=black&logo=javascript&logoColor=F0DB4F)
-![Typescript](https://img.shields.io/badge/Typescript-007acc?style=for-the-badge&labelColor=black&logo=typescript&logoColor=007acc)
-![React](https://img.shields.io/badge/-React-61DBFB?style=for-the-badge&labelColor=black&logo=react&logoColor=61DBFB)
-![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![Nodejs](https://img.shields.io/badge/Nodejs-3C873A?style=for-the-badge&labelColor=black&logo=node.js&logoColor=3C873A)
-![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
-![React Query](https://img.shields.io/badge/-React_Query-FF4154?style=for-the-badge&logo=react%20query&logoColor=white)
-![InfluxDB](https://img.shields.io/badge/InfluxDB-22ADF6?style=for-the-badge&logo=InfluxDB&logoColor=white)
-![Adobe Photoshop](https://img.shields.io/badge/adobe%20photoshop-%2331A8FF.svg?style=for-the-badge&logo=adobe%20photoshop&logoColor=white)
-![Angular](https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white)
-![Electron.js](https://img.shields.io/badge/Electron-191970?style=for-the-badge&logo=Electron&logoColor=white)
-![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white)
-![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![Home Assistant](https://img.shields.io/badge/home%20assistant-%2341BDF5.svg?style=for-the-badge&logo=home-assistant&logoColor=white)
-![Grafana](https://img.shields.io/badge/grafana-%23F46800.svg?style=for-the-badge&logo=grafana&logoColor=white)
-![Mosquitto](https://img.shields.io/badge/mosquitto-%233C5280.svg?style=for-the-badge&logo=eclipsemosquitto&logoColor=white)
-![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
-![Raspberry Pi](https://img.shields.io/badge/-RaspberryPi-C51A4A?style=for-the-badge&logo=Raspberry-Pi)
-
+<div align="center">
+  <img
+    width="100%"
+    src="https://capsule-render.vercel.app/api?type=waving&color=0:141414,45:875D93,100:FD4456&height=220&section=header&text=Abdullah%20Al-Eissa&fontSize=46&fontColor=FFFFFF&animation=fadeIn&fontAlignY=38&desc=Full-Stack%20Developer%20%E2%80%A2%20Enterprise%20Systems%20%E2%80%A2%20AI%20Infrastructure&descAlignY=58&descSize=18"
+    alt="Abdullah Al-Eissa — Full-Stack Developer"
+  />
+</div>
 
 <p align="center">
-  <a href="https://github.com/hideoxt">
-    <img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=hideoxt&theme=2077" alt="somethin about contribution"/>
-  </a>
+  <strong>Building privacy-first platforms, intelligent infrastructure, and software designed to scale beyond the prototype.</strong>
 </p>
 
 <p align="center">
-  <a href="https://github.com/hideoxt">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=hideoxt&bg_color=141321&color=ffffff&line=00ffc8&point=00ffc8&area=true&hide_border=true" alt="somethin about contribution"/>
+  <a href="https://hideoxt.netlify.app/">
+    <img src="https://img.shields.io/badge/Portfolio-141414?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" />
   </a>
+  <a href="https://github.com/hideoxt">
+    <img src="https://img.shields.io/badge/GitHub-FD4456?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  </a>
+  <img src="https://img.shields.io/badge/Kuwait-875D93?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Based in Kuwait" />
+</p>
+
+---
+
+## About Me
+
+I am a **full-stack developer and systems builder based in Kuwait**, focused on turning complex operational requirements into secure, maintainable products.
+
+My work spans **desktop applications, web platforms, backend architecture, databases, AI/RAG infrastructure, DevOps, and IoT integrations**. I care about systems that work outside the demo: clear architecture, strong permissions, reliable deployments, auditability, and room to scale.
+
+> Most of my current work lives in private product and client repositories, so the public repository count does not represent the full scope of my development activity.
+
+```yaml
+role: Lead Full-Stack Developer & Senior IT Specialist
+focus:
+  - Enterprise and multi-tenant platforms
+  - AI knowledge infrastructure and RAG
+  - On-premise and privacy-first software
+  - Product architecture, DevOps, and deployment
+working_style:
+  - Milestone-driven delivery
+  - Security and maintainability by design
+  - Production validation over prototype-only success
+```
+
+## Selected Systems
+
+<table>
+  <tr>
+    <td width="25%" valign="top">
+      <h3>Project AEGIS</h3>
+      <p>
+        A privacy-first, on-premise healthcare operations platform designed for clinics, hospitals, and multi-facility organizations.
+      </p>
+      <sub><strong>Focus:</strong> WinUI 3, ASP.NET Core, multi-tenancy, RBAC, audit trails, clinical workflows</sub>
+    </td>
+    <td width="25%" valign="top">
+      <h3>Mnemosyne</h3>
+      <p>
+        Domain-agnostic AI knowledge infrastructure supporting sovereign, hybrid, and cloud deployment models.
+      </p>
+      <sub><strong>Focus:</strong> ingestion, OCR, chunking, embeddings, hybrid retrieval, citations, model abstraction</sub>
+    </td>
+    <td width="25%" valign="top">
+      <h3>Mortis Platform</h3>
+      <p>
+        A multi-server Discord platform combining a management dashboard, bot runtime, persistent data, and modular automation.
+      </p>
+      <sub><strong>Focus:</strong> Next.js, Node.js, PostgreSQL, Docker, Discord integrations, administration</sub>
+    </td>
+    <td width="25%" valign="top">
+      <h3>Enterprise AI Operations</h3>
+      <p>
+        A production knowledge-assistant platform built around secure organizational data, background processing, and operational tooling.
+      </p>
+      <sub><strong>Focus:</strong> Next.js, PostgreSQL/pgvector, Redis, BullMQ, Linux, backups, observability</sub>
+    </td>
+  </tr>
+</table>
+
+## Technology
+
+<p align="center">
+  <img
+    src="https://skillicons.dev/icons?i=cs,dotnet,ts,js,nextjs,react,nodejs,postgres,redis,mongodb,prisma,docker,linux,git,githubactions,cloudflare,vscode,visualstudio&perline=9"
+    alt="Technology stack"
+  />
+</p>
+
+| Area | Tools and technologies |
+|---|---|
+| **Applications** | C#, .NET, WinUI 3, TypeScript, JavaScript, Next.js, React, Node.js |
+| **Data & AI** | PostgreSQL, pgvector, Redis, MongoDB, Prisma, RAG, embeddings, OCR, hybrid retrieval |
+| **Infrastructure** | Docker, Linux, Caddy, Cloudflare, CI/CD, GitHub Actions, PowerShell |
+| **Architecture** | Multi-tenancy, RBAC, audit logging, background jobs, modular systems, on-premise deployment |
+
+## What I Optimize For
+
+- **Useful complexity:** sophisticated systems with understandable boundaries.
+- **Operational readiness:** installation, migration, backups, monitoring, and recovery are part of the product.
+- **Privacy by design:** local-first and on-premise options where the domain demands them.
+- **Long-term maintainability:** deliberate architecture instead of disposable shortcuts.
+
+## GitHub Activity
+
+<p align="center">
+  <img
+    width="100%"
+    src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=hideoxt&theme=github_dark"
+    alt="GitHub profile summary"
+  />
 </p>
 
 <p align="center">
-  <a href="https://github.com/hideoxt">
-    <img src="https://streak-stats.demolab.com?user=hideoxt&theme=dark&date_format=M%20j%5B%2C%20Y%5D&fire=C897FF&border=EB5454&ring=C897FF&background=45%2C270303%2C5F0101&currStreakNum=FFFFFF&dates=FFFFFF&currStreakLabel=EBEBEB" alt="GitHub Streak" alt="somethin about contribution"/>
-  </a>
+  <img
+    width="100%"
+    src="https://github-readme-activity-graph.vercel.app/graph?username=hideoxt&bg_color=0d1117&color=c9d1d9&line=fd4456&point=ffa0f0&area=true&hide_border=true"
+    alt="GitHub contribution activity graph"
+  />
 </p>
+
+<p align="center">
+  <img
+    src="https://streak-stats.demolab.com?user=hideoxt&theme=github-dark-blue&hide_border=true&ring=FD4456&fire=FFA0F0&currStreakLabel=FFA0F0"
+    alt="GitHub contribution streak"
+  />
+</p>
+
+---
+
+<p align="center">
+  <strong>Building systems that survive beyond the demo.</strong>
+</p>
+
+<div align="center">
+  <img
+    width="100%"
+    src="https://capsule-render.vercel.app/api?type=waving&color=0:FD4456,55:875D93,100:141414&height=120&section=footer"
+    alt=""
+  />
+</div>
