@@ -101,31 +101,67 @@ working_style:
 - **Privacy by design:** local-first and on-premise options where the domain demands them.
 - **Long-term maintainability:** deliberate architecture instead of disposable shortcuts.
 
-## GitHub Activity
+## GitHub Arcade
 
 <p align="center">
-  <img
-    width="100%"
-    src="https://github-readme-activity-graph.vercel.app/graph?username=hideoxt&bg_color=0d1117&color=c9d1d9&line=fd4456&point=ffa0f0&area=true&hide_border=true"
-    alt="GitHub contribution activity graph"
-  />
+  <strong>My contribution graph, but make it a game.</strong>
 </p>
 
-<p align="center">
-  <img
-    width="70%"
-    src="./assets/github-stats.svg"
-    alt="GitHub statistics"
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="https://raw.githubusercontent.com/hideoxt/hideoxt/output/pacman-contribution-graph-dark.svg"
   />
-</p>
-
-<p align="center">
+  <source
+    media="(prefers-color-scheme: light)"
+    srcset="https://raw.githubusercontent.com/hideoxt/hideoxt/output/pacman-contribution-graph.svg"
+  />
   <img
     width="100%"
-    src="./assets/github-snake.svg"
+    alt="Pac-Man contribution graph"
+    src="https://raw.githubusercontent.com/hideoxt/hideoxt/output/pacman-contribution-graph.svg"
+  />
+</picture>
+
+<br />
+
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="https://raw.githubusercontent.com/hideoxt/hideoxt/output/github-snake-dark.svg"
+  />
+  <source
+    media="(prefers-color-scheme: light)"
+    srcset="https://raw.githubusercontent.com/hideoxt/hideoxt/output/github-snake.svg"
+  />
+  <img
+    width="100%"
     alt="Contribution snake animation"
+    src="https://raw.githubusercontent.com/hideoxt/hideoxt/output/github-snake.svg"
   />
-</p>
+</picture>
+
+<details>
+  <summary><strong>🧱 Bonus level: Breakout</strong></summary>
+  <br />
+
+  <picture>
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="https://raw.githubusercontent.com/hideoxt/hideoxt/output/breakout-contribution-graph-dark.svg"
+    />
+    <source
+      media="(prefers-color-scheme: light)"
+      srcset="https://raw.githubusercontent.com/hideoxt/hideoxt/output/breakout-contribution-graph.svg"
+    />
+    <img
+      width="100%"
+      alt="Breakout contribution graph"
+      src="https://raw.githubusercontent.com/hideoxt/hideoxt/output/breakout-contribution-graph.svg"
+    />
+  </picture>
+</details>
+
 
 ---
 
